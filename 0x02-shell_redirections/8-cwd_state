@@ -1,1 +1,2 @@
-#!/bin/bash/nls -la | echo > ls_cwd_content
+#!/bin/bash
+ls -la | echo > ls_cwd_content

@@ -1,0 +1,2 @@
+#!/bin/bash 
+sed '1 i #!/bin/bash' -i $(ls -t | head -1)

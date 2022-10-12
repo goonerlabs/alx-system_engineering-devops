@@ -1,5 +1,5 @@
 #!/bin/bash
-chmod +x *./
+ls -t | head -1 | chmod +x 
 git add .
 git commit -m "complete task"
 git push

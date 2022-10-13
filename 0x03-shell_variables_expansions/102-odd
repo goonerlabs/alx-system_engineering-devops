@@ -1,2 +1,3 @@
 #!/bin/bash
 paste - - | cut -d$'\t' -f1
+# the paste command pastes the info fed into it into two lines, the cut commant the cuts just the first line therefore grabbing only od numbers using a tab delimeter

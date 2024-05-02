@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#prints the 24hr clock
+i=0
+while [ $i -lt 24 ]
+do
+	echo "Hour: $i"
+	j=1
+	while [ $j -lt 60 ]
+	do
+		echo "$j"
+		((j++))
+	done
+	((i++))
+done

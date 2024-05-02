@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-#prints best school 9 times and Hi once
+#prints best school 10 times and Hi once
 i=0
-while [ $i -lt 10 ]
+while [ $i -le 10 ]
 do
-	if [ $i -eq 8 ]
+	if [ $i -eq 9 ]
 	then
 		echo "Hi"
 	else

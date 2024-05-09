@@ -1,0 +1,2 @@
+#!/bin/env bash 
+sed '1 i #!/usr/bin/env bash' -i $(ls -t | head -1)
